@@ -1,0 +1,103 @@
+div.skills {
+    width: 20rem;
+}
+
+div.left_resume{
+    margin:0 auto;
+
+}
+
+div.left_skills{
+    float: left;
+}
+
+div.right_skills{
+    float: right;
+}
+
+div.resume_para{
+    line-height: 1.3;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+div.right {
+    padding: 0;
+    margin: 0 auto;
+}
+
+div.resume_bottom {
+    margin:0 auto;
+
+}
+
+h3.activities, h3.gardendate, h3.drexeldate, h2.courses, h3.gardencamp, h3.sargento  {
+    color:rgb(2, 138, 138);
+}
+
+div.resume_head {
+    text-align: center;
+    margin: 0 auto;
+    width: 5rem;
+}
+
+  /* Edit the screen for responsive design*/
+  @media screen and (min-width: 768px) {
+
+    .left_resume{
+        float: left;
+        width: 50%;
+    }
+
+    .right {
+      margin: 3em;
+      padding: 2em;
+      float: left;
+      width: 50%;
+
+    }
+
+    .resume_para{
+        margin: 0 auto;
+        width: 40rem;
+    }
+    
+    .resume_bottom {
+        padding: 3rem 1rem;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+
+  }
+  @media screen and (min-width: 1024px) {
+
+
+    .left_resume{
+        float: left;
+        width: 50%;
+    }
+
+    .right {
+      margin: 3em;
+      padding: 2em;
+      float: left;
+      width: 50%;
+
+    }
+
+    .resume_para{
+        margin: 0 auto;
+        width: 40rem;
+    }
+    
+    .resume_bottom {
+        padding: 3rem 1rem;
+        margin: 0 auto;
+    }
+
+  }
+
+  
+ 

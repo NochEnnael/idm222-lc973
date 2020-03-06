@@ -1,0 +1,96 @@
+div.aboutme__head{
+    background-color:white;
+    font-size: 1.5rem;
+    max-width: 25rem;
+    margin: 0 auto;
+    padding: 0rem 1rem;
+    text-align: center;
+}    
+
+div.aboutme__img{
+   
+    margin: 1rem;
+    width: 18rem;
+    padding: 1.5rem;
+    margin: 0 auto;
+}
+
+div.aboutme__resume {
+    background-color:white;
+    border-radius: .5rem;
+    box-shadow: 4px 3.5px 7px 2px #E7E5E5;
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 15rem;
+    margin: 1.25rem auto;
+    padding: .5rem;
+    text-align: center;
+    width: 100%;
+}
+
+div.aboutparagraphs {
+    font-family:'BandeinsSansVariableGX' ;
+    font-size: 1.15rem;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 0 auto;
+    
+    padding: 0rem 2rem 1rem;
+    
+}
+
+h3{
+    color: teal;
+}
+
+.profile{
+    width: 75%;
+    margin: 0 auto;
+}
+
+#hero {
+    max-width: 6em;
+    margin: .5em;
+}
+
+
+
+
+/* Edit the screen for responsive design*/
+@media screen and (min-width: 768px) {
+
+      div.aboutparagraphs {
+        font-size: 1.15rem;
+    }
+/* 
+    div.aboutme__img{
+        width: 23rem;
+    } */
+    
+
+
+
+}
+
+  @media screen and (min-width: 1024px) {
+   
+    .aboutfullsection {
+        display: grid;
+        grid-template-columns: auto auto ;
+        padding: 10px;
+        align-items: center;
+      }
+
+      div.aboutparagraphs {
+        font-size: 1.15rem;
+    }
+
+    /* div.aboutme__img{
+        width: 30rem;
+    }
+    
+ */
+
+
+
+  }
