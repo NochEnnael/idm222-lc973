@@ -12,7 +12,7 @@
 
 <body>
 
-    <nav role="navigation">
+    <nav>
         <div id="menuToggle">
             
             <input type="checkbox"/>
@@ -21,25 +21,30 @@
             <span></span>
     
             <ul id="menu">  
-                <li>ABOUT</li>
-                <li> <a href="mobile.html">RESUME</a> </li>
-                <li> <a href="portresponse.html"> PORTFOLIO</a></li>
-                <li>CONTACT</li>
+                <li><a href="aboutresponse.html">About</a> </li>
+                <li> <a href="mobile.html">Resume</a> </li>
+                <li> <a href="portresponse.html"> Portfolio</a></li>
+                <li><a href="contactresponse.html"> Contact</a></li>
             </ul>
         </div>
     </nav>
 
+    <header class="centerheader">Leanne Chin</header>
+
     <header>
-        <a href="index.html">Leanne Chin</a>
+        <ul>
+            <li><a href="contactresponse.html" class="current">Contact</a></li>
+            <li><a href="portresponse.html">Portfolio</a></li>
+            <li><a href="mobile.html">Resume</a></li> <!--  Highlight current page with .current  -->
+            <li><a href="aboutresponse.html">About</a></li>
+            <li class="headerleft"><a href="homeresponse.html">Leanne Chin</a></li>
+          </ul>
+
     </header> 
 
-
   
-
-    <a id="top"></a>
-
     <div class="contactinfo__header">
-        <h2 class="contact">Contact</h2>
+        <h2>Contact</h2>
     </div>
 
 
@@ -48,6 +53,7 @@
 
         <div class="zands__img">
             <img src="../graphics/images/zands.jpg" alt="Z and S" class="zarin">
+            <p class="laugh">Contagious Laughter | EF 50mm f/1.4 |2018</p>
         </div>
         
 
@@ -82,12 +88,7 @@
     <!-- Changed from submitting a form to buttons that will driectly link the user to my differen social medias and email. This eliminated the need for another place for me to look at if someone were to contact me-->
 
     <footer>
-            <div class="footer">
     
-                <a href="#top">Back to top</a>
-    
-                <!-- Wondering how to make the color of the image change so the opacity is a differnt color? -->
-            </div>
     
     </footer>
  

@@ -24,6 +24,54 @@ a:visited {
     color:rgb(2, 138, 138); }    
 
 
+.entireresume {
+  padding: 0 2rem 0 2rem;
+}
+  
+div.footer{
+  border-top: .01rem solid #E7E5E5;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 0 auto;
+  max-width: 23rem;
+  padding: 1rem;
+  text-align: center;
+
+}
+
+div.skills {
+      width: 20rem;
+  }
+  
+div.left_resume{
+      margin:0 auto;
+  
+  }
+  
+div.left_skills{
+      float: left;
+  }
+  
+div.right_skills{
+      float: right;
+  }
+  
+div.resume_para{
+      line-height: 1.3;
+      margin: 0 auto;
+      text-align: center;
+  }
+  
+div.right {
+      padding: 0 ;
+      margin: 0 auto;
+  }
+  
+div.resume_bottom {
+      margin:0 auto;
+  
+  }
+
 header{
     color: teal;
     text-align: center;
@@ -33,70 +81,32 @@ header{
     padding: 0;
 }
 
+div.resume_head {
+  background-color:white;
+  font-size: 1.5rem;
+  max-width: 25rem;
+  margin: 0 auto;
+  padding: 0rem 1rem;
+  text-align: center;
+}
+
 html {
     font-family: 'LeagueSpartanVariable';
+    box-sizing: border-box;
 }
 
-div.skills {
-    width: 20rem;
-}
 
-div.left_resume{
-    margin:0 auto;
-
-}
-
-div.left_skills{
-    float: left;
-}
-
-div.right_skills{
-    float: right;
-}
-
-div.resume_para{
-    line-height: 1.3;
-    margin: 0 auto;
-    text-align: center;
-
-}
-
-div.right {
-    padding: 0;
-    margin: 0 auto;
-}
-
-div.resume_bottom {
-    margin:0 auto;
-
-
-}
 
 h3.activities, h3.gardendate, h3.drexeldate, h2.courses,h3.experience  {
     color:rgb(2, 138, 138);
 }
 
-div.resume_head {
-    text-align: center;
-    margin: 0 auto;
-    width: 5rem;
-}
 
-  
 p {
     font-family: 'BandeinsSansVariableGX' 
 }
 
 
-div.footer{
-  border-top: .01rem solid #E7E5E5;
-  font-size: 1.4rem;
-  font-weight: 500;
-  margin: 0 auto;
-  max-width: 23rem;
-  padding: 1rem;
-  text-align: center;
-  }
 
 
 /*MENU*//*MENU*//*MENU*//*MENU*//*MENU*//*MENU*/
@@ -127,6 +137,11 @@ ul#menu{
 
 /*This is for the menu! This is for the menu! This is for the menu!*/
 
+*,
+ *::before,
+ *::after {
+   box-sizing: border-box;
+ }
 
 #menuToggle
 {
@@ -175,6 +190,8 @@ ul#menu{
 /*
  * Just a quick hamburger
  */
+
+
 #menuToggle span
 {
   display: block;
@@ -276,6 +293,57 @@ nav {
 }
 
 
+/* Hide header nav bar on mobile */
+header {
+  display: none;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: ; */
+  border-bottom: .001rem solid #c2c2c2;
+}
+
+header li {
+  float: right;
+  font-size: 1.5rem;
+}
+
+header li a {
+  display: block;
+  color: #232323;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+
+}
+
+header li a:hover {
+  color: white;
+  background-color: teal;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+  background 0.3s cubic-bezier(0.77,0.2,0.05,1.0),
+  opacity 0.5s ease;
+}
+
+header .current {
+  color:white;
+  background-color: teal;
+  cursor: default;
+}
+
+.headerleft{
+  float: left;
+  font-size: 2rem;
+}
+
+.centerheader{
+  display: block;
+  padding: 16px;
+}
 
 
   /* Edit the screen for responsive design*/
@@ -297,15 +365,17 @@ nav {
     .resume_para{
         margin: 0 auto;
         width: 40rem;
+        font-size: 1rem;
     }
     
     .resume_bottom {
-        padding: 3rem 1rem;
+        padding: 2rem 1rem;
         margin: 0 auto;
         max-width: 97%;
     }
 
 
+    
   }
   @media screen and (min-width: 1024px) {
 
@@ -326,6 +396,7 @@ nav {
     .resume_para{
         margin: 0 auto;
         width: 50rem;
+        font-size: 1.2rem;
     }
     
     .resume_bottom {
@@ -336,4 +407,41 @@ nav {
 
   }
 
-  
+  @media screen and (min-width: 40em) {
+    nav {
+      display: none;
+    }
+    header {
+      display: block;
+    }
+
+    .centerheader{
+      display: none;
+    }
+  }
+ 
+  /* SWAP NAV MENUS 800px a.k.a 50em */
+ 
+   
+  @media screen and (min-width: 50em) {
+     nav {
+         display: none;
+       }
+       header {
+         display: block;
+       }
+
+       .centerheader{
+        display: none;
+      }
+     }
+ 
+ 
+      /* SWAP NAV MENUS 1200px a.k.a 75em */
+ 
+   @media screen and (min-width: 75em) {
+     #wrapper {
+          width: 1200px;
+          margin: 0 auto;
+        }
+      }

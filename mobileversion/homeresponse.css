@@ -1,0 +1,112 @@
+
+.homeimg{
+    width: 24rem;
+
+}
+
+div.intro__img {
+    padding: 1rem;
+    margin: 0 auto;
+    width: 25rem;
+    text-align: center;
+}
+
+div.introparas{
+    margin: 0 auto;
+
+}
+
+div.intro_section {
+    background-color: white;
+    color: teal;
+    height: 30rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 0 auto;
+    text-align: center
+    ;
+
+}
+
+div.intro__sentence {
+    line-height: 1.5;
+    margin: 0 auto;
+    padding: 0 0 .25rem;
+
+}
+
+div.intropara__2 {
+    color:rgb(65, 65, 65);
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+
+p.intro {
+
+    font-family: 'BandeinsSansVariableGX', 'Times New Roman';
+    font-size: 2rem; /* Size 16*/
+    font-weight: 900;
+    line-height: 1.35;
+    margin: .5rem;
+    padding: 1rem .5rem .5rem .5rem;
+
+}
+
+
+/* Edit the screen for responsive design*/
+@media screen and (min-width: 768px) {
+    div.intro__img {
+        padding: 1rem 0 1.2rem 0;
+        margin: .5rem auto;
+        width: 45rem;
+
+    }
+
+    .homeimg{
+        width: 40rem;
+    }
+
+    p.intro {
+
+        font-family: 'BandeinsSansVariableGX', 'Times New Roman';
+        font-size: 2.5rem; /* Size 16*/
+    }
+    
+    div.intropara__2 {
+        font-size: 1.2rem;
+    
+    }
+
+
+}
+
+  @media screen and (min-width: 1024px) {
+   /*FIGURE OUT HOW TO FIX THIS */
+
+   div.intro__img {
+    padding: 1rem 0 1.2rem 0;
+    margin: .5rem auto;
+    width: 60rem;
+
+}
+
+.homeimg{
+    width: 60rem;
+}
+
+p.intro {
+
+    font-family: 'BandeinsSansVariableGX', 'Times New Roman';
+    font-size: 3rem; /* Size 16*/
+
+}
+
+div.intropara__2 {
+    font-size: 1.5rem;
+
+}
+
+  }
+
+ 

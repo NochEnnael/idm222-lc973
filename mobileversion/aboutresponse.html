@@ -12,7 +12,7 @@
 <body>
 
 
-    <nav role="navigation">
+    <nav>
         <div id="menuToggle">
             
             <input type="checkbox"/>
@@ -21,20 +21,27 @@
             <span></span>
     
             <ul id="menu">  
-                <li>ABOUT</li>
-                <li> <a href="mobile.html">RESUME</a> </li>
-                <li> <a href="portresponse.html"> PORTFOLIO</a></li>
-                <li>CONTACT</li>
+                <li><a href="aboutresponse.html">About</a> </li>
+                <li> <a href="mobile.html">Resume</a> </li>
+                <li> <a href="portresponse.html"> Portfolio</a></li>
+                <li><a href="contactresponse.html"> Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <header>
-        <a href="index.html">Leanne Chin</a>
-    </header> 
-    
+    <header class="centerheader">Leanne Chin</header>
 
-    <a id="top"></a>
+    <header>
+        <ul>
+            <li><a href="contactresponse.html">Contact</a></li>
+            <li><a href="portresponse.html">Portfolio</a></li>
+            <li><a href="mobile.html">Resume</a></li> <!--  Highlight current page with .current  -->
+            <li><a href="aboutresponse.html" class="current">About</a></li>
+            <li class="headerleft"><a href="homeresponse.html">Leanne Chin</a></li>
+          </ul>
+
+    </header> 
+
 
     <div class="aboutme__head">
         <h2>About Me</h2>
@@ -45,21 +52,13 @@
 
         <div id="hero">
 
-            <picture>
-
-                <source media="(min-width: 1024px)" srcset="images/profile2.jpg"/> 
-                
-                <source media="(min-width: 768px)" srcset="images/Profile.jpg"/> 
-
-                <img src="/graphics/images/Profile.jpg" alt="Headshot"> 
-            
-            </picture>
-
-
-            <!-- <div class="aboutme__img">
+            <div class="aboutme__img">
                 <img src="../graphics/images/Profile.jpg" alt="Headshot" class="profile">
-            </div> -->
+            </div>
 
+            <div class="aboutme__img2">
+                <img src="../graphics/images/profile2.jpg" alt="headshot" class="profile2">
+            </div>
         </div>
 
             <!-- Figures out how to insert an image through W3Schools. Not sure if I should keep the images in the graphics page or the src page? Need to ask. Also, how do you wrap text? Is it in HTML or CSS?-->
@@ -68,32 +67,56 @@
         <div class="aboutparagraphs">
 
             <div class="aboutparagraph__1">
-                <p>
-                    Hello there! My name is Leanne Chin and I am currently in my Sophomore Year in Drexel University studying Interactive Digital Media. I am based in Philadelphia, but am from New York City.  </p>
+                <p class="aboutpara">
+                    Hello there! My name is Leanne Chin and I am currently in my Sophomore Year in Drexel University studying Interactive Digital Media. I am based in Philadelphia, but am from New York City.  
+                </p>
                     
                     <h2>Fun facts</h2>
-                    <ul>Ask me any questions about Disney! I'll answer it 100% accurately, most of the time.</ul>
+                    <ul>
+                        <li>Ask me any questions about Disney! I'll answer it 100% accurately, most of the time.
+
+                        </li>
+                    </ul>
 
                    <h3>Favorite colors</h3>  
                    
-                    <ul> Teal and Purple (Just like the colors of the Little Mermaid) </ul>
+                    <ul> 
+                        <li>
+                            Teal and Purple (Just like the colors of the Little Mermaid)
+                        </li>
+                        
+                    </ul>
             
                     <h3>Favorite show</h3>
-                        <ul>Gilmore Girls! "Oy with the poodles already!" 
+                        <ul>
+                            <li>
+                                Gilmore Girls! "Oy with the poodles already!" 
+                            </li>
+    
                         </ul> 
 
 
                     <h3>Hobbies</h3>
-                        <ul>Tap dancing, yoga, going to boutique boxing classes, playing volleyball, and reading. </ul> 
+                        <ul>
+                            <li>
+                                Tap dancing, yoga, going to boutique boxing classes, playing volleyball, and reading. 
+                            </li>
+                            
+                        </ul> 
 
                     <h3>Countries Visited</h3>
                     <ul>
+                        <li>
                         Taiwan, Japan, England, The Bahamas.
+                        </li>
                     </ul>
 
                     <h3>Student organizations</h3>
                     <ul>
-                     Campus Activites Board (CAB), DU Onyx Valley, Dac Pack, Theme Park and Engineering (TPED).</ul> 
+                        <li>
+                            Campus Activites Board (CAB), DU Onyx Valley, Dac Pack, Theme Park and Engineering (TPED).
+                        </li>
+                    </ul> 
 
                 
             </div>
@@ -103,13 +126,6 @@
     </div>
 
     <footer>
-            <div class="footer">
-    
-                <a href="#top">Back to top</a>
-    
-                <!-- Wondering how to make the color of the image change so the opacity is a differnt color? -->
-            </div>
-    
     </footer>
     
 </body>

@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <nav role="navigation">
+    <nav>
         <div id="menuToggle">
             
             <input type="checkbox"/>
@@ -18,20 +18,27 @@
             <span></span>
     
             <ul id="menu">  
-                <li>ABOUT</li>
-                <li>RESUME</li>
-                <li>PORTFOLIO</li>
-                <li>CONTACT</li>
+                <li><a href="aboutresponse.html">About</a> </li>
+                <li> <a href="mobile.html">Resume</a> </li>
+                <li> <a href="portresponse.html"> Portfolio</a></li>
+                <li><a href="contactresponse.html"> Contact</a></li>
             </ul>
         </div>
     </nav>
 
+    <header class="centerheader">Leanne Chin</header>
+
     <header>
-        <a href="mobile.html">Leanne Chin</a>
+        <ul>
+            <li><a href="contactresponse.html">Contact</a></li>
+            <li><a href="portresponse.html" class="current">Portfolio</a></li>
+            <li><a href="mobile.html">Resume</a></li> <!--  Highlight current page with .current  -->
+            <li><a href="aboutresponse.html">About</a></li>
+            <li class="headerleft"><a href="homeresponse.html">Leanne Chin</a></li>
+          </ul>
+
     </header> 
     
-
-    <a id="top"></a>
 
     <div class="portfolio___header">
         <h2>Portfolio Pieces</h2>
@@ -52,7 +59,7 @@
 
         <div class="portfolio___illustrator">
 
-            <a href="">
+            <a href="illustratorresponse.html">
                 <h3>Illustrator</h3>
                     <img src="../graphics/porfolio/geneport.jpg" alt="illustrator">
             </a> 
@@ -68,7 +75,7 @@
         </div>
             
         <div class="portfolio__sports">
-            <a href="">
+            <a href="sports.html">
                 <h3>Sport Photography</h3>
                 <img src="../graphics/porfolio/basket.jpg" alt="sports">
             </a>
@@ -84,13 +91,7 @@
     </div>
 
     <footer>
-            <div class="footer">
-    
-                <a href="#top">Back to top</a>
-    
-                <!-- Wondering how to make the color of the image change so the opacity is a differnt color? -->
-            </div>
-    
+        
     </footer>
 
 </body>

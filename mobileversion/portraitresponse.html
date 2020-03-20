@@ -11,7 +11,7 @@
 
 <body>
 
-    <nav role="navigation">
+    <nav>
         <div id="menuToggle">
             
             <input type="checkbox"/>
@@ -20,19 +20,26 @@
             <span></span>
     
             <ul id="menu">  
-                <li>ABOUT</li>
-                <li>RESUME</li>
-                <li>PORTFOLIO</li>
-                <li>CONTACT</li>
+                <li><a href="aboutresponse.html">About</a> </li>
+                <li> <a href="mobile.html">Resume</a> </li>
+                <li> <a href="portresponse.html"> Portfolio</a></li>
+                <li><a href="contactresponse.html"> Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <header>
-        <a href="index.html">Leanne Chin</a>
-    </header> 
+    <header class="centerheader">Leanne Chin</header>
 
-    <a id="top"></a>
+    <header>
+        <ul>
+            <li><a href="contactresponse.html">Contact</a></li>
+            <li><a href="portresponse.html" class="current">Portfolio</a></li>
+            <li><a href="mobile.html">Resume</a></li> <!--  Highlight current page with .current  -->
+            <li><a href="aboutresponse.html">About</a></li>
+            <li class="headerleft"><a href="homeresponse.html">Leanne Chin</a></li>
+          </ul>
+
+    </header> 
 
     <div class="portrait__header">
         <h2>Portrait Photography</h2>
@@ -44,28 +51,28 @@
         <div class="portrait__ballet">
             <img src="../graphics/portraits/ballet.jpg" alt="Ballet Dancer">
             <p>
-                Dancer Portrait In Studio | 2018
+                Dancer Portrait In Studio| EF 50mm f/1.4 | 2018
             </p>
         </div>
 
         <div class="portrait__pink">
             <img src="../graphics/portraits/pink.jpg" alt="Pink LED Lights">
             <p>
-                Headshots using LED lights with pink and purple color gels | 2018
+                Headshots using LED lights with pink and purple color gels | EF 50mm f/1.4 |2018
             </p>
         </div>
    
         <div class="portrait__mixed">
             <img src="../graphics/portraits/purplepink.jpg" alt="Mixed LED Lights">
             <p>
-                Headshots using LED lights with blue and purple color gels | 2018
+                Headshots using LED lights with blue and purple color gels| EF 50mm f/1.4 | 2018
             </p>
         </div>
 
         <div class="portrait__retro">
             <img src="../graphics/portraits/sunglasses.jpg" alt="Retro Girl">
             <p>
-                Black and White Fashion Photography | 2018
+                Black and White Fashion Photography| EF 50mm f/1.4 | 2018
             </p>
         </div>
 
@@ -76,24 +83,13 @@
             </p>
         </div>
 
-        <div class="portrait__city">
-            <img src="../graphics/portraits/citygreen.jpg" alt="In the City">
-            <p>
-                Street Fashion Portrait Photography In NYC | 2018
-            </p>
-        </div>
          
         <!-- Found way to allow user to not have entire screen filled with the image. Made a white box with drop shadow to allow the user to view the image clearer. Like in instagram. -->
 
     </div>
     
     <footer>
-            <div class="footer">
-    
-                <a href="#top">Back to top</a>
-    
-                <!-- Wondering how to make the color of the image change so the opacity is a differnt color? -->
-            </div>
+
     
     </footer>
 

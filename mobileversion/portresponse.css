@@ -15,7 +15,7 @@ div.disneywebsite__paragraph, div.gardenwebsite__paragraph{
     border-top: .01rem solid #E7E5E5;
     line-height: 1.4;
     margin: 0 auto;
-    max-width: 22.5rem;
+    width: 22.5rem;
     padding: .7rem 1rem 0 1rem;
     text-align: center;
 }
@@ -27,6 +27,9 @@ div.disney__title, div.garden__title{
     text-align: center;
 }
 
+img{
+    width:100%;
+}
 
 div.portfolio__header {
     margin: .5rem 0;
@@ -54,15 +57,11 @@ div.categories__gene, div.categories__paint, div.categories__pattern1, div.categ
     box-shadow: 4px 3.5px 20px 2px #E7E5E5;
     font-weight: 500;
     margin: 1.15rem auto;
-    max-width: 23rem;
+    width: 20rem;
     padding: 1rem 2rem;
     text-align: center;
 }
 
-
-img{
-    width:100%;
-}
 
 .portfolio{
     margin: 0 auto;
@@ -83,16 +82,25 @@ video.vidphone, video.vidtablet{
         max-width: 50rem;
       }
 
-      .gardenimg, .disneyvid{
+      div.disneywebsite__paragraph, div.gardenwebsite__paragraph {
+          width: 40rem;
+      }
+
+      .gardenimg, .disneyvid, .sports, .categories{
         display: grid;
         grid-template-columns: auto auto ;
         padding: 1rem;
      }
 
-     div.website__home, div.website__second, div.website__error,div.video__phone,div.video__tablet {
-         max-width: 20rem;
+     div.categories__gene, div.categories__paint, div.categories__pattern1, div.categories__pattern2, div.categories__pattern3,div.portrait__city, div.portrait__ballet, div.portrait__pink, div.portrait__mixed, div.portrait__retro, div.portrait__flashlight, div.website__home, div.website__second, div.website__error,div.video__phone,div.video__tablet, div.sports__mbb, div.sports__wbb,div.sports__squash, div.sports__highschoolbb {
+         width: 20rem;
          position: relative;
      }
+
+     h3 {
+        font-size: 1.3rem;
+     }
+
 
     }
 
@@ -106,17 +114,24 @@ video.vidphone, video.vidtablet{
         max-width: 75rem;
       }
 
-    .gardenimg,.disneyvid, .portrait {
+      div.disneywebsite__paragraph, div.gardenwebsite__paragraph {
+        width: 50rem;
+    }
+
+    .gardenimg,.disneyvid, .portrait, .sports, .categories {
         display: grid;
         grid-template-columns: auto auto  ;
-        padding: 10px 0 0 0;
+        padding: 0 6rem 0 6rem;
       }
 
-      div.website__home, div.website__second, div.website__error,div.video__phone,div.video__tablet {
-        max-width: 27rem;
+      div.categories__gene, div.categories__paint, div.categories__pattern1, div.categories__pattern2, div.categories__pattern3, div.portrait__city, div.portrait__ballet, div.portrait__pink, div.portrait__mixed, div.portrait__retro, div.portrait__flashlight,div.website__home, div.website__second, div.website__error,div.video__phone,div.video__tablet,div.sports__mbb, div.sports__wbb,div.sports__squash, div.sports__highschoolbb {
+        width: 27rem;
         position: relative;
       }
 
+      h3 {
+          font-size: 1.7rem;
+      }
 
 
     /* img {
