@@ -93,7 +93,7 @@ video.vidphone, video.vidtablet{
      }
 
      div.categories__gene, div.categories__paint, div.categories__pattern1, div.categories__pattern2, div.categories__pattern3,div.portrait__city, div.portrait__ballet, div.portrait__pink, div.portrait__mixed, div.portrait__retro, div.portrait__flashlight, div.website__home, div.website__second, div.website__error,div.video__phone,div.video__tablet, div.sports__mbb, div.sports__wbb,div.sports__squash, div.sports__highschoolbb {
-         width: 20rem;
+         width: 25rem;
          position: relative;
      }
 
