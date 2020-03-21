@@ -1,13 +1,13 @@
 
 @font-face {
     font-family: 'LeagueSpartanVariable';
-    src: url(../fonts/LeagueSpartanVariable.woff2) format('truetype'); 
+    src: url(fonts/LeagueSpartanVariable.woff2) format('truetype'); 
     font-weight: 200 900;
 }
 
 @font-face {
     font-family: 'BandeinsSansVariableGX';
-    src: url('../fonts/BandeinsSansVariableGX.ttf') format('truetype');
+    src: url('fonts/BandeinsSansVariableGX.ttf') format('truetype');
     font-weight: 200 900;
 
 }
@@ -103,7 +103,8 @@ h3.activities, h3.gardendate, h3.drexeldate, h2.courses,h3.experience  {
 
 
 p {
-    font-family: 'BandeinsSansVariableGX' 
+    font-family: 'BandeinsSansVariableGX';
+
 }
 
 

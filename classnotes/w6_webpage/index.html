@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    
+    <!--  Made by Erik Terwan -->
+<!--  24th of November 2015 -->
+<!--  Mods by Jervis Thompson-->
+<!----  Mobile and Non-Mobile Navagation Menus -->
+<!----  Jan 2020-->
+<!--  MIT License -->
+
+<nav role="navigation">
+    <div id="menuToggle">
+      <!--
+      A fake / hidden checkbox is used as click reciever,
+      so you can use the :checked selector on it.
+      -->
+      <input type="checkbox" />
+  
+      <!--
+      Some spans to act as a hamburger.
+  
+      They are acting like a real hamburger,
+      not that McDonalds stuff.
+      -->
+      <span></span>
+      <span></span>
+      <span></span>
+  
+      <!--
+      Too bad the menu has to be inside of the button
+      but hey, it's pure CSS magic.
+      -->
+      <ul id="menu">
+        <a href="#"><li>Home</li></a>
+        <a href="#"><li>About</li></a>
+        <a href="#"><li>Info</li></a>
+        <a href="#"><li>Contact</li></a>
+      </ul>
+    </div>
+  </nav>
+  
+  <header>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <!--  Highlight current page with .current  -->
+        <li><a href="#" class="current">About</a></li>
+        <li><a href="#">Info</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+  </header>
+  
+  <div id="wrapper">
+    <div id="hero">
+    <!-- <img src="img/zands1.jpg" alt="Laughing girls"> -->
+
+    <picture>
+      <source media="(min-width: 50em)" srcset="img/zands1.jpg"/> 
+
+      <source media="(min-width: 40em)" srcset="img/zands2.jpg"/> 
+      
+      <img src="img/zands1.jpg" alt="Laughing girls"> 
+    </picture> 
+    
+    </div>  
+    
+
+    <div id = "content">
+      <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, dolore sed, similique illum earum nulla pariatur nam quam, minima dolores asperiores ipsum optio delectus temporibus ab sit maiores quasi fugit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo assumenda a veniam? Quia, id nobis? Consequatur nobis laborum laudantium maiores tempore non. Similique dolore qui cumque blanditiis! Laborum, sunt molestiae!
+    </p>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dolor nihil possimus aliquid minima inventore ea necessitatibus ex impedit ut commodi aut odit, maxime atque officiis expedita exercitationem obcaecati voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente molestiae ipsum distinctio, fugiat modi consectetur alias, officiis necessitatibus ut ad adipisci. Cumque sunt quae animi. Eius optio eligendi facilis delectus.
+    </p>
+    </div>
+</div>
+
+</body>
+</html>
