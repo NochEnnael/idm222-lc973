@@ -1,9 +1,10 @@
 
 
- div.button__clickinsta, div.button__clickmail,div.button__clicklinkedin {
+ div.button__click{
     background-color: white;
-    border-radius: .5rem;
-    box-shadow: 4px 3.5px 7px 2px #E7E5E5;
+    /* border-radius: .5rem;
+    box-shadow: 4px 3.5px 7px 2px #E7E5E5; */
+    border: 2px solid teal;
     font-size: 1.3rem;
     font-weight: 500;
     padding: 1rem;
@@ -12,6 +13,14 @@
     text-align: center;
   
   }
+
+  .button__click:hover{
+    cursor: pointer;
+    background-color: black;
+    border: 2px solid black;
+    transition: background-color .2s ease-in;
+
+}
 
   div.contactinfo {
     /* display: grid;    
@@ -79,16 +88,15 @@
     }
 
 
- div.button__clickinsta, div.button__clickmail,div.button__clicklinkedin {
-    background-color: white;
-    border-radius: .5rem;
-    box-shadow: 4px 3.5px 7px 2px #E7E5E5;
+ div.button__click{
     font-size: 1.3rem;
     font-weight: 500;
     width: 18rem;
     margin: .05rem auto;
     text-align: center;
   }
+
+
 
 }
 
@@ -127,16 +135,15 @@
     }
 
 
- div.button__clickinsta, div.button__clickmail,div.button__clicklinkedin {
+ div.button__click {
     background-color: white;
-    border-radius: .5rem;
-    box-shadow: 4px 3.5px 7px 2px #E7E5E5;
     font-size: 1.7rem;
     font-weight: 500;
     padding: 1rem;
     width: 21rem;
     margin: .5rem auto;
     text-align: center;
+    align-items: center;
 
 }
 

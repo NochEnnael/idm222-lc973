@@ -1,7 +1,8 @@
 div.button__garden {
-    background-color:white;
-    border-radius: .5rem;
-    box-shadow: 4px 3.5px 7px 2px #E7E5E5;
+   background-color:white;
+    /* border-radius: .5rem; */
+    border: 2px solid teal;
+    /* box-shadow: 4px 3.5px 7px 2px #E7E5E5; */
     font-size: 1.3rem;
     font-weight: 500;
     max-width: 15rem;
@@ -9,6 +10,14 @@ div.button__garden {
     padding: .5rem;
     text-align: center;
     width: 100%;
+}
+
+.button__garden:hover{
+    cursor: pointer;
+    background-color: black;
+    border: 2px solid black;
+    transition: background-color .2s ease-in;
+
 }
 
 div.disneywebsite__paragraph, div.gardenwebsite__paragraph{
@@ -71,6 +80,23 @@ video.vidphone, video.vidtablet{
     width: 90%;
 }
 
+.ohmydis {
+    text-align: center;
+    background-color: white;
+    box-shadow: 4px 3.5px 20px 2px #E7E5E5;
+    margin: 1.15rem auto;
+    width: 80%;
+    padding: 1rem 2rem;
+    text-align: center;
+
+}
+
+iframe{
+    width: 340px; 
+    height: 199px;
+}
+
+
  /* Edit the screen for responsive design*/
  @media screen and (min-width: 768px) {
 
@@ -101,6 +127,12 @@ video.vidphone, video.vidtablet{
         font-size: 1.3rem;
      }
 
+     iframe{
+        width: 350px; 
+        height: 209px;
+    }
+    
+   
 
     }
 
@@ -132,6 +164,13 @@ video.vidphone, video.vidtablet{
       h3 {
           font-size: 1.7rem;
       }
+
+
+    
+    iframe{
+        width: 780px; 
+        height: 498px;
+    }
 
 
     /* img {
